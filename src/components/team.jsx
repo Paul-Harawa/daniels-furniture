@@ -35,7 +35,7 @@ function Team() {
               />
               <div class="ml-4">
                 <h2 class="text-md font-bold text-gray-100">Mr. Daniel Chirwa</h2>
-                <p class="text-gray-200 text-sm">Founder / CEO</p>
+                <p class="text-gray-200 text-sm">Founder  </p>
               </div>
             </div>
             <p class="text-gray-100 mt-4 text-sm">
@@ -59,7 +59,35 @@ function Team() {
           </div>
 
 
-
+ <div class="bg-black bg-opacity-30 rounded-lg shadow-lg p-4 hover:shadow-xl transition-shadow duration-300">
+            <div class="flex items-center">
+              <img
+                src={'/images/team/glory.jpg'}
+                alt="Team Member"
+                class="w-16 h-16 rounded-full object-cover border border-blue-500"
+              />
+              <div class="ml-4">
+                <h2 class="text-md font-bold text-gray-100">Ms. Glory Chirwa</h2>
+                <p class="text-gray-200 text-sm">CEO</p>
+              </div>
+            </div>
+            <p class="text-gray-100 mt-4 text-sm">
+              <b>Contact</b>: +265 884 166 143 <br />
+              <b>Email</b>: rachealmakocha@gmail.com 
+            </p>
+            <div class="flex space-x-4 mt-4 justify-between">
+              <a href="#" class="bg-gray-200 p-4 rounded-full text-blue-500 hover:text-blue-700">
+                <FiPhoneCall />
+                </a>
+            
+              <a href="#" class="bg-gray-200 p-4 rounded-full text-blue-500 hover:text-blue-700">
+                <FaWhatsapp  />
+              </a>
+              <a href="#" class="bg-gray-200 p-4 rounded-full text-blue-500 hover:text-blue-700">
+                <SlSocialFacebook />
+              </a>
+            </div>
+          </div>
 
           
 
